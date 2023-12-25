@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Döviz Çevirici</title>
+</head>
+<body>
+
+    <div class="currencyContainer">
+        <h1 class="currencyTitle">Döviz Çevirici</h1>
+        <div class="currencyContent">
+            <select name="" id="currencySelect">
+                <option value="USD" selected>DOLAR</option>
+                <option value="EUR">EURO</option>
+                <option value="AUD">AVUSTRALYA DOLARI</option>
+                <option value="CAD">KANADA DOLARI</option>
+                <option value="JPY">JAPON YENİ</option>
+            </select>
+            <input type="number" name="" id="currency" value="1" min="0">
+        </div>
+        <div class="currencyContent">
+            <select name="" id="currencySelectRate">
+                <option value="TRY" selected>TÜRK LİRASI</option>
+                <option value="USD">DOLAR</option>
+                <option value="EUR">EURO</option>
+                <option value="AUD">AVUSTRALYA DOLARI</option>
+                <option value="CAD">KANADA DOLARI</option>
+                <option value="JPY">JAPON YENİ</option>
+            </select>
+            <div  name="" id="currencySecond"> </div>
+        </div>
+       <p id="currencyUpdate">1 EURO - 1.15 DOLAR</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
